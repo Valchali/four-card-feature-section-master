@@ -1,14 +1,15 @@
 
 body{
-  margin: 0;
-    display: grid;
-    font-family: var(--ff-base);
-    font-size: var(--fs-base);
-    font-weight: var(--fw-normal);
-    background-color: var(--clr-VeryLightGray);
-    /* color: var(--clr-GrayishBlue); */
+     margin:auto 0;
+     display:grid;
+     font-family: var(--ff-base);
+     font-size: var(--fs-base);
+     font-weight: var(--fw-normal);
+     background-color: var(--clr-VeryLightGray);
    }
    
+   
+
    header{
     width: auto;
      display: grid;
@@ -20,7 +21,9 @@ body{
      padding: 20px;
    }
    
+
    .main-paragraph{
+    line-height: 1.5rem;
     width: 450px;
     color:hsl(234, 12%, 34%);
     font-family: "Poppins", sans-serif;
@@ -28,7 +31,7 @@ body{
    
    
    .wraper{
-     display: flex;
+      display:flex;
      justify-content: center;
      place-items: center;
      gap: 1rem;
@@ -41,7 +44,7 @@ body{
    }
    
    .feature{
-     display: inline-block;  
+     display:grid;  
      width: 350px;
      height: 250px;
      padding: 2rem;
@@ -51,44 +54,45 @@ body{
    }
    
    .icon{
-    float: right;
-    margin-top: 2rem;
+    justify-self: right;
+    gap: 2rem;
    }
    
    .feature-supervisor{
-    background-color: white;
-     border-top: 4px solid rgb(175, 175, 252);  
-     /* box-shadow: 5px 3px 10px  rgba(118,118,237,0.75); */
+    background-color: hsl(0, 0%, 100%);
+     border-top: 4px solid rgb(175, 175, 252);
    }
     
    
    .feature-team-build{
-     border-top: 4px solid red ;
-     /* box-shadow: 5px 3px 10px  rgba(118,118,237,0.75); */
+     border-top: 4px solid red;
+     background-color: hsl(0, 0%, 100%);
    }
    
    .feature-karma{
      border-top: 4px solid orange;
-     /* box-shadow: 5px 3px 10px  rgba(118,118,237,0.75); */
+     background-color: hsl(0, 0%, 100%);
    }
    
    .feature-calculator{
      border-top: 4px solid blue;
-     /* box-shadow: 5px 3px 28px  rgba(118,118,237,0.75); */
+     background-color: hsl(0, 0%, 100%);
    }
    
     h1{
-      font-weight: 200px;
+      /* margin: 0; */
+      font-weight:500 px;
       color:hsl(234, 12%, 34%);
-      font-family: "Poppins", sans-serif;
     }
    
     h2{
-      font-weight:600 px;
+
+      font-weight: normal;
+      font-size: 1.5em;
       color:hsl(234, 12%, 34%);
-      margin-top: -0.22rem;
-      line-height: 1px;
+      font-family: "Poppins", sans-serif;
     }
+
    .feature h3{
      margin-bottom: 1rem;
    }
@@ -98,5 +102,7 @@ body{
     text-align: center;
 
    }
+
+
 
   
