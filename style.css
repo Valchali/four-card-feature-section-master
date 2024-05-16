@@ -104,5 +104,17 @@ body{
    }
 
 
+  /* Media queries */
+  @media screen and (max-width: 600px) {
+    .wraper{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    
+  }
+
 
   
